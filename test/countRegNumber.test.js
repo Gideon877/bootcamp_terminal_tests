@@ -1,5 +1,5 @@
-const assert = require('assert');
-const countRegNumber = require('../countRegNumber');
+import assert from "assert";
+import countRegNumber from "../countRegNumber.js";
 
 describe('countRegNumber function', function(){
   it ('should return 3 for the number of registration numbers in the string', function(){

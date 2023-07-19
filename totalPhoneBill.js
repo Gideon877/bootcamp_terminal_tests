@@ -1,4 +1,4 @@
-module.exports = function totalPhoneBill(callAndSms) {
+export default  function(callAndSms) {
     var totalCost = callAndSms.split(',');
     var callCost = [];
     var smsCost = [];
@@ -12,6 +12,5 @@ module.exports = function totalPhoneBill(callAndSms) {
     }
     var total = (0.65 * (smsCost.length)) + (2.75 * (callCost.length));
     var total2 = 'R' + total.toFixed(2);
-    console.log('total ' + total2);
     return total2;
 }

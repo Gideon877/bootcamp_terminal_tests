@@ -1,4 +1,4 @@
-module.exports = function findItemsOver(itemList, quantity) {
+export default  function(itemList, quantity) {
     var empty = [];
     for (var i = 0; i < itemList.length; i++) {
         var listItem = itemList[i];

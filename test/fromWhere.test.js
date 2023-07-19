@@ -1,5 +1,5 @@
-const assert = require('assert');
-const fromWhere = require('../fromWhere');
+import assert from "assert";
+import fromWhere from "../fromWhere.js";
 
 describe ('fromWhere function', function(){
   it('should return Bellville for CY', function(){

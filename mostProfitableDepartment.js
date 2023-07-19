@@ -1,4 +1,4 @@
-module.exports = function mostProfitableDepartment(salesData) {
+export default  function(salesData) {
 
     var hardwareValue = [];
     var outdoorValue = [];
@@ -6,7 +6,7 @@ module.exports = function mostProfitableDepartment(salesData) {
 
     var hardwareCount = 0;
     var outdoorCount = 0;
-    var carpentryCount = 0;
+    var carpentryCount = 0, hardwareTotal = 0;
     for (var i = 0; i < salesData.length; i++) {
         var curObj = salesData[i]; // curObj is the 'i' value which will be the index
         var ObjectDep = curObj.department; //call the department for each index
@@ -41,7 +41,6 @@ module.exports = function mostProfitableDepartment(salesData) {
         'outdoorCount': outdoorCount,
         'carpentryCount': carpentryCount
     };
-    console.log(obj);
 
     var biggest = '';
     for (var name in obj) {

@@ -1,4 +1,4 @@
-module.exports = function transportFee(shiftPrice) {
+export default  function(shiftPrice) {
     switch (shiftPrice) {
         case 'morning':
             return 'R20';

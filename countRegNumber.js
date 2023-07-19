@@ -1,5 +1,4 @@
-module.exports  = function countRegNumber(regNumber){
+export default (regNumber)=>{
   var regCount = regNumber.split(",");
-  console.log(regCount.length);
   return regCount.length;
 }

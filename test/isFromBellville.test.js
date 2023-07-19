@@ -1,5 +1,5 @@
-const assert = require('assert');
-const isFromBellville = require('../isFromBellville');
+import assert from "assert";
+import isFromBellville from "../isFromBellville.js";
 
 describe('isFromBellville function', function(){
 

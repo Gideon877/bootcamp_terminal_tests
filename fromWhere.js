@@ -1,4 +1,4 @@
-module.exports = function fromWhere(carRegNo){
+export default  function(carRegNo){
   switch (carRegNo){
       case "CY":
         return 'Bellville';

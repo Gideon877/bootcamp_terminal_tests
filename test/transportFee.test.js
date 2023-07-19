@@ -1,5 +1,5 @@
-const assert = require('assert');
-const transportFee = require('../transportFee');
+import assert from "assert";
+import transportFee from "../transportFee.js";
 
 describe('transportFee function', function(){
   it('should returns R20 for morning shift', function(){

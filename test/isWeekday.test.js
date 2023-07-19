@@ -1,5 +1,5 @@
-const assert = require('assert');
-const isWeekday = require('../isWeekday');
+import assert from "assert";
+import isWeekday from "../isWeekday.js";
 
 describe('isWeekday function', function(){
 

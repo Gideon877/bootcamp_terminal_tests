@@ -1,4 +1,4 @@
-module.exports = function isWeekday(day) {
+export default  function(day) {
     var dayCheck = !day.startsWith("S");
     return dayCheck;
 }

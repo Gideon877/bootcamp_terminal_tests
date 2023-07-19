@@ -1,5 +1,6 @@
-const assert = require('assert');
-const findItemsOver = require('../findItemsOver');
+import assert from "assert";
+import findItemsOver from "../findItemsOver.js";
+
 var itemList = [
     {name : 'apples', qty : 10},
     {name : 'pears', qty : 37},

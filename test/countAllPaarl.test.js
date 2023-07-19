@@ -1,5 +1,5 @@
-const assert = require('assert');
-const countAllPaarl = require('../countAllPaarl');
+import assert from "assert";
+import countAllPaarl from "../countAllPaarl.js";
 
 describe('countAllPaarl function', function(){
      it('returns all the registration numbers in the string for Paarl', function(){

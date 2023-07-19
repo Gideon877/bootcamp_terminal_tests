@@ -1,5 +1,5 @@
-const assert = require('assert');
-const totalPhoneBill = require('../totalPhoneBill');
+import assert from "assert";
+import totalPhoneBill from "../totalPhoneBill.js";
 
 describe ('totalPhoneBill function', function(){
   it("calculate the total phone bill of calls and sms's sent", function(){

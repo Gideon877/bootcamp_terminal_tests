@@ -1,4 +1,4 @@
-module.exports = function countAllPaarl(regNo){
+export default (regNo)=>{
   var newRegNo = regNo.split(',');
   var paarlReg = [];
   for (var i=0; i<newRegNo.length; i++){

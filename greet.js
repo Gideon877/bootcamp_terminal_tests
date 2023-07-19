@@ -1,3 +1,3 @@
-module.exports = function greet(neighbourName){
+export default  function(neighbourName){
   return 'Hello, ' + neighbourName;
 }

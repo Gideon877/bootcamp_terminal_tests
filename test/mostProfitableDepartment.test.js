@@ -1,5 +1,6 @@
-const assert = require('assert');
-const mostProfitableDepartment = require('../mostProfitableDepartment');
+import assert from "assert";
+import mostProfitableDepartment from "../mostProfitableDepartment.js";
+
 var salesData = [{
         department: 'hardware',
         sales: 4500,
